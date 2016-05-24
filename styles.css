@@ -1,15 +1,33 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
-        <title>Matt and Lisa are Getting Married</title>
-    </head>
+body {
+    background-color: #f3f9f2;
+    color: #170307;
+}
 
-    <body>
-        <div class="top-heading">
-            <h1 class="top-title">The Wedding of Matthew Lee Meola and Lisa Hoong Yee Ing</h1>
-        </div>
+.top-heading {
+    background-color: #978979;
+}
+
+.top-title {
+    color: #971b2f;
+}
+
+.top-directions {
+}
+
+.top-menu {
+    color: #978979;
+    background-color: #b2b2b2;
+}
+
+.other {
+    background-color: #f3f9f2;
+    color: #170307;
+    color: #b2b2b2;
+    color: #cbcbcb;
+    color: #971b2f;
+    background-color: #978979;
+}
+    
         <div class="top-menu">
             <a href="/"><img alt="Home" src="icons/home_icon.png"></a>
             <div class="top-directions">September 26, 2016 in Cambridge, MA at the Harvard Museum of Natural History</div>
