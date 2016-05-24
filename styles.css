@@ -1,13 +1,30 @@
 body {
     background-color: #f3f9f2;
     color: #170307;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
 }
+
+:link {
+    color: #971b2f;
+    text-decoration: none;
+}
+
+:visited {
+    color: #971b2f;
+    text-decoration: none;
+}
+
 
 .top-heading {
     background-color: #978979;
 }
 
 .top-title {
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 4px 4px 4px;
     color: #971b2f;
 }
 
@@ -17,6 +34,35 @@ body {
 .top-menu {
     color: #978979;
     background-color: #b2b2b2;
+}
+
+.left-menu {
+    float:left;
+    background-color: #cbcbcb;
+    width: 15%;
+}
+
+.left-list a {
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: serif;
+    font-variant: small-caps;
+    color: #971b2f;
+    display: block;
+}
+
+.left-list a:hover {
+    background-color: #b2b2b2;
+}
+
+.left-list a:active {
+    background-color: #978979;
+}
+
+.inline-img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .other {
