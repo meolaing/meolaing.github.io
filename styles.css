@@ -1,4 +1,5 @@
 body {
+    font-family: "Fauna One", serif;
     background-color: #f3f9f2;
     color: #170307;
     margin: 0 0 0 0;
@@ -29,6 +30,7 @@ body {
 }
 
 .top-directions {
+    font-size: 1.5em;
 }
 
 .top-menu {
@@ -45,7 +47,7 @@ body {
     padding: 0px 10px 0px 10px;
     text-decoration: none;
     font-size: 1.5em;
-    font-family: serif;
+    font-family: "Fauna One", serif;
     font-variant: small-caps;
     color: #971b2f;
     display: block;
@@ -57,6 +59,20 @@ body {
 
 .left-list a:active {
     background-color: #978979;
+}
+
+.icon-img {
+    /*width: 3em;*/
+    height: 3em;
+    display: inline-block;
+    vertical-align: -70%;
+}
+
+.lower-o-apple-img {
+    /*width: 1em;*/
+    height: 1em;
+    display: inline-block;
+    vertical-align: -13%;
 }
 
 .inline-img {
