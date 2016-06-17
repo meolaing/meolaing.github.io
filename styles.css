@@ -19,32 +19,58 @@ body {
 
 
 .top-heading {
-    background-color: #978979;
+    margin: auto;
+    border: 0 0 0 0;
+    padding: 2rem 4rem 2rem 1rem;
+    color: #978979;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.top-title {
-    margin: 0 0 0 0;
-    border: 0 0 0 0;
-    padding: 4px 4px 4px;
-    color: #971b2f;
+.top-heading > * {
+    align-self: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.icon-img {
+    /*width: 3em;*/
+    height: 3rem;
+    margin: auto;
+}
+
+
+.top-menu {
+    background-color: #b2b2b2;
+    min-height: 3em;
+    padding: 2px 4rem 2px 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .top-directions {
     font-size: 1.5em;
 }
 
-.top-menu {
-    background-color: #b2b2b2;
+.top-menu > * {
+    align-self: center;
+    padding: 0 1rem 0 1rem;
 }
 
 .left-menu {
     float:left;
     background-color: #cbcbcb;
+    background-image: url("media/lg_apple_dkgray.png");
+    background-size: 80%;
+    background-position: 1em 2em;
+    background-repeat: no-repeat;
     width: 15em;
 }
 
 .left-list a {
-    padding: 0px 10px 0px 10px;
+    padding: 0em 0.5em 0em 0.5em;
     text-decoration: none;
     font-size: 1.5em;
     font-family: "Fauna One", serif;
@@ -54,25 +80,17 @@ body {
 }
 
 .left-list a:hover {
-    background-color: #b2b2b2;
+    background-color: rgba(178, 178, 178, 0.4);
 }
 
 .left-list a:active {
-    background-color: #978979;
+    background-color: rgba(151,143,127,0.4);
 }
 
-.icon-img {
-    /*width: 3em;*/
-    height: 3em;
-    display: inline-block;
-    vertical-align: -70%;
-}
 
 .lower-o-apple-img {
-    /*width: 1em;*/
-    height: 1em;
+    width: 0.75em;
     display: inline-block;
-    vertical-align: -13%;
 }
 
 .inline-img {
@@ -87,4 +105,10 @@ body {
     color: #cbcbcb;
     color: #971b2f;
     background-color: #978979;
+}
+
+.main {
+    max-width: 80em;
+    padding: 1.5rem 5rem 1.5rem 1.5rem;
+    /*margin: auto;*/
 }
