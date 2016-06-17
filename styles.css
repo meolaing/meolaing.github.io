@@ -32,14 +32,13 @@ body {
 }
 
 .top-menu {
-    color: #978979;
     background-color: #b2b2b2;
 }
 
 .left-menu {
     float:left;
     background-color: #cbcbcb;
-    width: 15%;
+    width: 15em;
 }
 
 .left-list a {
