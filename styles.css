@@ -1,0 +1,90 @@
+body {
+    font-family: "Fauna One", serif;
+    background-color: #f3f9f2;
+    color: #170307;
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+:link {
+    color: #971b2f;
+    text-decoration: none;
+}
+
+:visited {
+    color: #971b2f;
+    text-decoration: none;
+}
+
+
+.top-heading {
+    background-color: #978979;
+}
+
+.top-title {
+    margin: 0 0 0 0;
+    border: 0 0 0 0;
+    padding: 4px 4px 4px;
+    color: #971b2f;
+}
+
+.top-directions {
+    font-size: 1.5em;
+}
+
+.top-menu {
+    background-color: #b2b2b2;
+}
+
+.left-menu {
+    float:left;
+    background-color: #cbcbcb;
+    width: 15em;
+}
+
+.left-list a {
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Fauna One", serif;
+    font-variant: small-caps;
+    color: #971b2f;
+    display: block;
+}
+
+.left-list a:hover {
+    background-color: #b2b2b2;
+}
+
+.left-list a:active {
+    background-color: #978979;
+}
+
+.icon-img {
+    /*width: 3em;*/
+    height: 3em;
+    display: inline-block;
+    vertical-align: -70%;
+}
+
+.lower-o-apple-img {
+    /*width: 1em;*/
+    height: 1em;
+    display: inline-block;
+    vertical-align: -13%;
+}
+
+.inline-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.other {
+    background-color: #f3f9f2;
+    color: #170307;
+    color: #b2b2b2;
+    color: #cbcbcb;
+    color: #971b2f;
+    background-color: #978979;
+}
