@@ -17,6 +17,15 @@ body {
     text-decoration: none;
 }
 
+.top-all {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    margin 0;
+    border 0;
+    padding 0;
+}
 
 .top-heading {
     margin: auto;
@@ -59,31 +68,51 @@ body {
     padding: 0 1rem 0 1rem;
 }
 
-.left-menu {
-    float:left;
+.nav-menu {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888888;
+    width: 100%;
+    text-align: center;
+    /*width: 15em;*/
+}
+.nav-list {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;
     background-color: #cbcbcb;
     background-image: url("media/lg_apple_dkgray.png");
     background-size: 80%;
     background-position: 1em 2em;
-    background-repeat: no-repeat;
-    width: 15em;
+    background-repeat: no-repeat;*/
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
 }
 
-.left-list a {
-    padding: 0em 0.5em 0em 0.5em;
+.nav-list li {
+    padding 0;
     text-decoration: none;
     font-size: 1.5em;
     font-family: "Fauna One", serif;
     font-variant: small-caps;
     color: #971b2f;
-    display: block;
+    /*float: left;*/
+    display: inline-block;
 }
 
-.left-list a:hover {
+.nav-list li a {
+    padding: 0.25em 1em 0.25em 1em;
+    text-align: center;
+    display: block;
+}
+.nav-list li a:hover {
     background-color: rgba(178, 178, 178, 0.4);
 }
 
-.left-list a:active {
+.nav-list li a:active {
     background-color: rgba(151,143,127,0.4);
 }
 
@@ -108,6 +137,8 @@ body {
 }
 
 .main {
+    margin: auto;
+    margin-top: 300px;
     max-width: 80em;
     padding: 1.5rem 5rem 1.5rem 1.5rem;
     /*margin: auto;*/
