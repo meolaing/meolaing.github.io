@@ -21,6 +21,7 @@ body {
     height: 100%;
     position: fixed;
     background-color: #f3f9f2;
+    background-image: url("media/Matt+Lisa_partybus.jpg");
     background-image: url("media/Matt+Lisa_Lovers_Point.jpg");
     background-width: 100%;
     background-position: center;
@@ -29,7 +30,7 @@ body {
 }
 
 .body-overlay {
-    background-color: rgba(243, 249, 242, 0.4);*/
+    background-color: rgba(243, 249, 242, 0.2);*/
     position: fixed;
     overflow: auto;
     z-index: 1;
@@ -182,7 +183,7 @@ h1 {
     margin-top: 0px;
     max-width: 80em;
     padding: 20rem 5rem 1.5rem 1.5rem;
-    background-color: rgba(243, 249, 242, 0.8);
+    background-color: rgba(243, 249, 242, 0.7);
     min-height: 100%;
     z-index: 2;
     /*margin: auto;*/
