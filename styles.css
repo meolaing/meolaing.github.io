@@ -15,6 +15,20 @@ body {
     z-index: -1;
 }
 
+.google-maps {
+    position: relative;
+    padding-bottom: 65%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 .body-underlay {
     top: 0;
     width: 100%;
@@ -181,14 +195,27 @@ h1 {
 .main {
     margin: auto;
     margin-top: 0px;
+    width: 70%;
     max-width: 80em;
-    padding: 20rem 5rem 1.5rem 1.5rem;
+    padding: 20rem 1.5rem 1.5rem 1.5rem;
     background-color: rgba(243, 249, 242, 0.7);
     min-height: 100%;
     z-index: 2;
     /*margin: auto;*/
 }
 
+.main h3 {
+    color: #971b2f;
+    margin: 1.6rem 0 0 0;
+}
+
+.listage > h4 {
+    margin: 0.8rem 0 0.4rem 0;
+}
+
+.listage > p {
+    margin: 0 0 0 0.8rem;
+}
 
 .notices {
     font-size: .75rem
