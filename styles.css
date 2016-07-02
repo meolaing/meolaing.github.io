@@ -44,7 +44,7 @@ body {
 }
 
 .body-overlay {
-    background-color: rgba(243, 249, 242, 0.2);*/
+    background-color: rgba(243, 249, 242, 0.2);
     position: fixed;
     overflow: auto;
     z-index: 1;
@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-    margin: 0 0 0 0em;
+    margin: auto;
     font-size: 2rem;
 }
 
@@ -80,9 +80,14 @@ h1 {
 .top-heading {
     margin: auto;
     border: 0 0 0 0;
-    padding: 2rem 4rem 2rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
     color: #978979;
-    background-color: #000000;
+    background-color: #847540;
+    background-color: #170307;
+    background-color: #847540;
+    background-color: #971b2f;
+    background-color: rgba(111,4,21,.88);
+    background-color: rgba(111,4,21,.88);
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -107,10 +112,11 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    display: none;
 }
 
 .top-directions {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .top-menu > * {
@@ -123,6 +129,11 @@ h1 {
     padding: 0;
     overflow: hidden;
     background-color: #cbcbcb;
+    background-color: #b2b2b2;
+    background-color: rgba(178,178,178,.85);
+    background-color: rgba(168,165,149,0.88);
+    background-color: rgba(158,145,122,0.88);
+    background-color: rgba(162,150,129,0.92);
     width: 100%;
     text-align: center;
     /*width: 15rem;*/
@@ -196,9 +207,9 @@ h1 {
     margin: auto;
     margin-top: 0px;
     width: 70%;
-    max-width: 80em;
-    padding: 20rem 1.5rem 1.5rem 1.5rem;
-    background-color: rgba(243, 249, 242, 0.7);
+    max-width: 60em;
+    padding: 18rem 6% 6% 6%;
+    background-color: rgba(243, 249, 242, 0.8);
     min-height: 100%;
     z-index: 2;
     /*margin: auto;*/
