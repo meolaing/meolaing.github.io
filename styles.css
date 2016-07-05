@@ -55,6 +55,7 @@ body {
 h1 {
     margin: auto;
     font-size: 2rem;
+    padding-bottom: 1em;
 }
 
 :link {
@@ -218,6 +219,12 @@ h1 {
 .main h3 {
     color: #971b2f;
     margin: 1.6rem 0 0 0;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .listage > h4 {
