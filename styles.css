@@ -129,11 +129,6 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #cbcbcb;
-    background-color: #b2b2b2;
-    background-color: rgba(178,178,178,.85);
-    background-color: rgba(168,165,149,0.88);
-    background-color: rgba(158,145,122,0.88);
     background-color: rgba(162,150,129,0.92);
     width: 100%;
     text-align: center;
@@ -154,6 +149,14 @@ h1 {
     list-style-type: none;
 }
 
+.current {
+    color: #978979;
+    background-color: rgba(111,4,21,.6);
+}
+.nav-list li .main-nav-link:hover {
+    color: #971b2f;
+    background-color: rgba(178, 178, 178, 0.4);
+}
 .nav-list li {
     padding 0;
     text-decoration: none;
@@ -166,13 +169,11 @@ h1 {
     display: inline-block;
 }
 
+
 .nav-list li a {
     padding: 0.25rem 1rem 0.25rem 1rem;
     text-align: center;
     display: block;
-}
-.nav-list li a:hover {
-    background-color: rgba(178, 178, 178, 0.4);
 }
 
 .nav-list li a:active {
