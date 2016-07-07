@@ -217,7 +217,7 @@ h1 {
 }
 
 .address {
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
 }
 
 .main {
@@ -265,5 +265,6 @@ p {
 }
 
 .notices {
+    margin-top: 1rem;
     font-size: .75rem
 }
