@@ -215,8 +215,7 @@ h1 {
 }
 
 .address {
-    font-weight: 700;
-    font-size: 1.1em;
+    margin-top: 0.4rem;
 }
 
 .main {
@@ -245,6 +244,14 @@ img.centered {
 .listage > h4 {
     padding: 0;
     margin: 0.8rem 0 0 0;
+}
+
+.listage > a {
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0 0 0 0;
 }
 
 p {
