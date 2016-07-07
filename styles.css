@@ -265,6 +265,13 @@ p {
 }
 
 .notices {
-    margin-top: 1rem;
-    font-size: .75rem
+    margin-top: 2rem;
+    font-size: .7rem
+}
+.notices > p {
+    margin: 0.2rem 0 0 0;
+}
+
+.fine-print {
+    font-size: .7em
 }
