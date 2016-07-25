@@ -34,7 +34,7 @@ body {
 
 .google-forms {
     position: relative;
-    padding-bottom: 120%; // This is the aspect ratio
+    padding-bottom: 160%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
