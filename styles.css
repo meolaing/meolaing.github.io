@@ -36,7 +36,7 @@ body {
     position: relative;
     padding-bottom: 160%; // This is the aspect ratio
     height: 0;
-    overflow: hidden;
+    //overflow: hidden;
 }
 .google-forms iframe {
     position: absolute;
